@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#125688</color>
+    <color name="colorPrimaryDark">#125688</color>
+    <color name="textColorPrimary">#FFFFFF</color>
+    <color name="windowBackground">#FFFFFF</color>
+    <color name="navigationBarColor">#000000</color>
+    <color name="colorAccent">#c8e8ff</color>
+
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorBlack">#000000</color>
+    <color name="colorTransparent">#00000000</color>
+    <color name="colorTransparentWhite">#AAFFFFFF</color>
+    <color name="colorGrayLogin">#8C8A8D</color>
+    <color name="colorNonBluePressedLogin">#003C7B</color>
+    <color name="colorBluePressedLogin">#518ECF</color>
+
+    <color name="colorMainMenu">#90000000</color>
+
+    <color name="colorCarDetailHeaderTextName">#1E4564</color>
+    <color name="colorCarDetailHeaderTextProperties">#39546E</color>
+</resources>

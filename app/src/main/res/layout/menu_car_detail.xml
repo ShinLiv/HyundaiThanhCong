@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <Button
+        android:id="@+id/btn_car_detail_home"
+        style="@style/StyleCarDetailHomeButton" />
+
+    <LinearLayout
+        style="@style/StyleHomeRightSideMenuLayout"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_car_detail_overview"
+            style="@style/StyleOtherCarDetailMenuButton"
+            android:text="Tổng quan" />
+
+        <Button
+            android:id="@+id/btn_car_detail_exterior"
+            style="@style/StyleOtherHomeMenuButton"
+            android:text="Ngoại thất" />
+
+        <Button
+            android:id="@+id/btn_car_detail_furniture"
+            style="@style/StyleOtherHomeMenuButton"
+            android:text="Nội thất" />
+
+        <Button
+            android:id="@+id/btn_car_detail_parameter"
+            style="@style/StyleOtherHomeMenuButton"
+            android:text="Thông số" />
+
+        <Button
+            android:id="@+id/btn_car_detail_gallery"
+            style="@style/StyleOtherHomeMenuButton"
+            android:text="Gallery" />
+
+        <Button
+            android:id="@+id/btn_car_detail_news"
+            style="@style/StyleOtherHomeMenuButton"
+            android:text="Tin tức" />
+
+        <Button
+            android:id="@+id/btn_car_detail_sales_promotion"
+            style="@style/StyleOtherHomeMenuButton"
+            android:text="Khuyến mại" />
+
+        <Button
+            android:id="@+id/btn_car_detail_prime"
+            style="@style/StyleOtherHomeMenuButton"
+            android:text="Giải thưởng" />
+    </LinearLayout>
+</LinearLayout>

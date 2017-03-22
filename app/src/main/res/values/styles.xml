@@ -1,0 +1,70 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="Material.NoActionBar" parent="android:Theme.Material.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    // Car Home Menu Component Style
+
+    <style name="StyleHomeButton">
+        <item name="android:gravity">center</item>
+        <item name="android:layout_width">150dp</item>
+        <item name="android:layout_height">@dimen/main_menu_height</item>
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:textSize">16dp</item>
+        <item name="android:background">@drawable/selector_home_button</item>
+    </style>
+
+    <style name="StyleHomeRightSideMenuLayout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/main_menu_height</item>
+        <item name="android:background">@color/colorMainMenu</item>
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:textSize">16dp</item>
+    </style>
+
+    <style name="StyleOtherHomeMenuButton">
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">16dp</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:background">@drawable/selector_other_main_menu_button</item>
+    </style>
+
+    // Car Detail Menu Component Style
+
+    <style name="StyleCarDetailHomeButton">
+        <item name="android:gravity">center</item>
+        <item name="android:layout_width">80dp</item>
+        <item name="android:scaleType">centerInside</item>
+        <item name="android:layout_height">@dimen/main_menu_height</item>
+        <item name="android:background">@drawable/selector_car_detail_home_button</item>
+    </style>
+
+    <style name="StyleOtherCarDetailMenuButton">
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">16dp</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:background">@drawable/selector_other_main_menu_button</item>
+    </style>
+
+    <style name="StyleColorImage">
+        <item name="android:layout_width">36dp</item>
+        <item name="android:layout_height">36dp</item>
+        <item name="android:scaleType">fitCenter</item>
+        <item name="android:layout_marginLeft">5dp</item>
+        <item name="android:background">@drawable/color1</item>
+    </style>
+
+</resources>
